@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawid website</title>
+    <link rel="stylesheet" href="dawidWebsite.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" defer></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous" defer></script>
+    <script src="/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <ul class="navbar">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#trening">Trening</a></li>
+            <li><a href="#dieta">Dieta</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </header>
+    
+    <section class="hero-banner" id="home">
+        <div class="hero-text">
+            <h1>Trener i dietetyk Dawid Hoppel</h1><br><br><br>
+            <p>“Strength does not come from physical capacity. It comes from an indomitable will.”</p><br>
+            <p>~Mahatma Gandhi</p>
+        </div>
+    </section>
+    
+    <section id="trening">
+        <div class="images-container">
+            <div class="image">
+                <a href="/Trainings/TrainingWeb.html">
+                <img src="images/hantle.jpg" alt="">
+                </a>
+                <div class="description">
+                    <h2>Trening</h2>
+                    <p>Odpowiedni plan treningowy to część sukcesu</p>
+                </div>
+            </div>
+        
+            <div class="image">
+                <a href="/Diet/DietWeb.html">
+                <img src="/images/owoce.jpg" alt="">
+                </a>
+                <div class="description">
+                    <h2>Dieta</h2>
+                    <p>Dobrze dobrana dieta to podstawa!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="main">
+            <img src="/images/testoweZdjecie.jpg" alt="">
+            <div class="about-text">
+                <h2>O mnie</h2>
+                <h5>Trener i dietetyk</h5>
+                <p>Cześć jestem dietetykiem sportowym. Skończyłem studia na AWF w Poznaniu. 
+                Od 7 lat trenuje trójbój siłowy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <div class="blank">
+            <form action="https://formspree.io/f/mqkodpog" method="POST" id="my-form">
+                <h2>Kontakt</h2>
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name"><i class="fas fa-user"></i> Your name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="number" id="number" required>
+                        <label for="number"><i class="fas fa-phone-square-alt"></i> Phone number</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea name="message" rows="8"></textarea>
+                    <label for="message"><i class="fas fa-comments"></i> Your message</label>
+                </div>
+
+                <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+            </form>
+        </div>
+        <div id="status"></div>
+    </section>
+
+    <div class="wrapper">
+        <div class="button">
+            <div class="icon"><a href="https://www.facebook.com/" target="_blank"></a>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <span>Facebook</span>
+        </div>
+
+        <div class="button">
+                <div class="icon"><a href="https://twitter.com/" target="_blank"></a>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            <span>Twitter</span>
+        </div>
+
+        <div class="button">
+                <div class="icon"><a href="https://www.instagram.com/dawidhoppel/" target="_blank"></a>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            <span>Instagram</span>
+        </div>
+
+        <div class="button">
+                <div class="icon"><a href="https://www.youtube.com/" target="_blank"></a>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            <span>YouTube</span>
+        </div>
+    </div>
+</body>
+</html>
